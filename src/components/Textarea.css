@@ -1,0 +1,73 @@
+.containerTextarea {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.containerTextarea h2 {
+    text-align: center;
+}
+
+.cont-actions {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cont-actions button {
+    margin-bottom: .5rem;
+}
+
+.logo-actions {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cont-Textarea {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    place-items: center;
+}
+
+.cont-Textarea textarea {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+@media (width > 1000px) {
+    .containerTextarea {
+        width: 100%;
+    }
+
+    .cont-actions {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .cont-Textarea {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .cont-Textarea textarea {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+}

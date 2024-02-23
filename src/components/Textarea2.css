@@ -1,0 +1,16 @@
+.containerTextarea{
+    min-height: 100%;
+    width: 100%;
+}
+.group{
+    width: 100%;
+    border-width: 1px;
+    border-color: blueviolet;
+    border-radius: .5rem;
+}
+.cont-actions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
